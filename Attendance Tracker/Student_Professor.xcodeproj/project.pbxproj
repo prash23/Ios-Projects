@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F225B011CB1F3A10060F65E /* StudentLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F225B001CB1F3A10060F65E /* StudentLoginViewController.swift */; };
+		3F225B031CB1F3B70060F65E /* StudentRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F225B021CB1F3B70060F65E /* StudentRegisterViewController.swift */; };
+		3F225B051CB1F6370060F65E /* FacultyAttendanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F225B041CB1F6370060F65E /* FacultyAttendanceViewController.swift */; };
+		3F225B091CB1F66B0060F65E /* StudentAttendanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F225B081CB1F66B0060F65E /* StudentAttendanceViewController.swift */; };
+		3F225B0B1CB1F68F0060F65E /* StudentExamReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F225B0A1CB1F68F0060F65E /* StudentExamReviewViewController.swift */; };
+		3F225B0D1CB1F9F00060F65E /* submit-button-red.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F225B0C1CB1F9F00060F65E /* submit-button-red.gif */; };
+		3F225B0F1CB1FE2D0060F65E /* FacultyFeedbackTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F225B0E1CB1FE2D0060F65E /* FacultyFeedbackTableViewController.swift */; };
+		3F5161581CBF39AC00D9C379 /* Sections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5161571CBF39AC00D9C379 /* Sections.swift */; };
+		3F6CBB6E1CB356680078887F /* KinveyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6CBB6D1CB356680078887F /* KinveyKit.framework */; };
+		3F6CBB711CB356BF0078887F /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6CBB701CB356BF0078887F /* Accounts.framework */; };
+		3F6CBB731CB356C90078887F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6CBB721CB356C90078887F /* MobileCoreServices.framework */; };
+		3F6CBB751CB356D60078887F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6CBB741CB356D60078887F /* CoreGraphics.framework */; };
+		3F6CBB781CB356E00078887F /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6CBB761CB356E00078887F /* libsqlite3.0.tbd */; };
+		3F6CBB791CB356E00078887F /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6CBB771CB356E00078887F /* libsqlite3.tbd */; };
+		3F6CBB7B1CB356E80078887F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6CBB7A1CB356E80078887F /* CoreLocation.framework */; };
+		3F6CBB7D1CB356F30078887F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6CBB7C1CB356F30078887F /* Security.framework */; };
+		3F6CBB7F1CB356F90078887F /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6CBB7E1CB356F90078887F /* Social.framework */; };
+		3F6CBB811CB357020078887F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6CBB801CB357010078887F /* SystemConfiguration.framework */; };
+		3F6CBB841CB3570B0078887F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6CBB821CB3570B0078887F /* WebKit.framework */; };
+		3F9A29FB1CCEFBA100FB6244 /* image12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F9A29FA1CCEFBA100FB6244 /* image12.jpg */; };
+		3F9A29FD1CCF00FA00FB6244 /* image13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F9A29FC1CCF00FA00FB6244 /* image13.jpg */; };
+		3F9A29FF1CCF089000FB6244 /* image14.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F9A29FE1CCF089000FB6244 /* image14.jpeg */; };
+		3F9A2A011CCF092B00FB6244 /* image15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F9A2A001CCF092B00FB6244 /* image15.jpg */; };
+		3F9A2A031CCF0B0700FB6244 /* image17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F9A2A021CCF0B0700FB6244 /* image17.jpg */; };
+		3F9A2A0B1CCF0CA700FB6244 /* image16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F9A2A0A1CCF0CA700FB6244 /* image16.jpg */; };
+		3F9A2A0D1CCF0E3600FB6244 /* staff_button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F9A2A0C1CCF0E3600FB6244 /* staff_button.jpg */; };
+		3F9A2A0F1CCF0E3A00FB6244 /* studentButton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F9A2A0E1CCF0E3A00FB6244 /* studentButton.jpg */; };
+		3F9A2A1B1CCF140500FB6244 /* image20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F9A2A1A1CCF140500FB6244 /* image20.jpg */; };
+		3F9A2A1D1CCF293A00FB6244 /* image25.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F9A2A1C1CCF293A00FB6244 /* image25.gif */; };
+		3FF5BF891CC6A7850012AC7E /* PresentStudentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF5BF881CC6A7850012AC7E /* PresentStudentsTableViewController.swift */; };
+		5C9EE8141CB6BCA9003F9850 /* Faculty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9EE8131CB6BCA9003F9850 /* Faculty.swift */; };
+		9BF806F31C9E0EF400761F8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF806F21C9E0EF400761F8B /* AppDelegate.swift */; };
+		9BF806F51C9E0EF400761F8B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF806F41C9E0EF400761F8B /* WelcomeViewController.swift */; };
+		9BF806FA1C9E0EF400761F8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BF806F91C9E0EF400761F8B /* Assets.xcassets */; };
+		9BF806FD1C9E0EF400761F8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF806FB1C9E0EF400761F8B /* LaunchScreen.storyboard */; };
+		9BF807051C9E0FE100761F8B /* Faculty-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF807041C9E0FE100761F8B /* Faculty-Button.png */; };
+		9BF807071C9E0FF400761F8B /* Student-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF807061C9E0FF400761F8B /* Student-Button.png */; };
+		9BF8070A1C9E203C00761F8B /* loginButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF807081C9E203C00761F8B /* loginButton.png */; };
+		9BF8070B1C9E203C00761F8B /* signup-button.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9BF807091C9E203C00761F8B /* signup-button.gif */; };
+		9BF8070D1C9E24E400761F8B /* FacultyLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF8070C1C9E24E400761F8B /* FacultyLoginViewController.swift */; };
+		9BF8070F1C9E250400761F8B /* FacultyRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF8070E1C9E250400761F8B /* FacultyRegisterViewController.swift */; };
+		9BF807121C9E39EC00761F8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF807101C9E39EC00761F8B /* Main.storyboard */; };
+		AC1CB4311CC1C865003AF815 /* AttendanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1CB4301CC1C865003AF815 /* AttendanceViewController.swift */; };
+		AC3088D21CC2A2BE00E15860 /* stuAttendance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3088D11CC2A2BE00E15860 /* stuAttendance.swift */; };
+		AC3088D41CC2AF0400E15860 /* facAttendance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3088D31CC2AF0400E15860 /* facAttendance.swift */; };
+		AC3156291CB5C92F0094219B /* Students.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3156281CB5C92F0094219B /* Students.swift */; };
+		ACF6024A1CC05FFD003223D5 /* faculty.json in Resources */ = {isa = PBXBuildFile; fileRef = ACF602491CC05FFD003223D5 /* faculty.json */; };
+		ACF6024C1CC06DAD003223D5 /* LoggedUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF6024B1CC06DAD003223D5 /* LoggedUser.swift */; };
+		FE230E441CC4929D00156135 /* PresentStudents.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE230E431CC4929D00156135 /* PresentStudents.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F225B001CB1F3A10060F65E /* StudentLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentLoginViewController.swift; sourceTree = "<group>"; };
+		3F225B021CB1F3B70060F65E /* StudentRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentRegisterViewController.swift; sourceTree = "<group>"; };
+		3F225B041CB1F6370060F65E /* FacultyAttendanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacultyAttendanceViewController.swift; sourceTree = "<group>"; };
+		3F225B081CB1F66B0060F65E /* StudentAttendanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentAttendanceViewController.swift; sourceTree = "<group>"; };
+		3F225B0A1CB1F68F0060F65E /* StudentExamReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentExamReviewViewController.swift; sourceTree = "<group>"; };
+		3F225B0C1CB1F9F00060F65E /* submit-button-red.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "submit-button-red.gif"; sourceTree = "<group>"; };
+		3F225B0E1CB1FE2D0060F65E /* FacultyFeedbackTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacultyFeedbackTableViewController.swift; sourceTree = "<group>"; };
+		3F5161571CBF39AC00D9C379 /* Sections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sections.swift; sourceTree = "<group>"; };
+		3F6CBB6D1CB356680078887F /* KinveyKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KinveyKit.framework; sourceTree = "<group>"; };
+		3F6CBB6F1CB3567A0078887F /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		3F6CBB701CB356BF0078887F /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		3F6CBB721CB356C90078887F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		3F6CBB741CB356D60078887F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F6CBB761CB356E00078887F /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		3F6CBB771CB356E00078887F /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		3F6CBB7A1CB356E80078887F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3F6CBB7C1CB356F30078887F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3F6CBB7E1CB356F90078887F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		3F6CBB801CB357010078887F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3F6CBB821CB3570B0078887F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		3F9A29FA1CCEFBA100FB6244 /* image12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image12.jpg; sourceTree = "<group>"; };
+		3F9A29FC1CCF00FA00FB6244 /* image13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image13.jpg; sourceTree = "<group>"; };
+		3F9A29FE1CCF089000FB6244 /* image14.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image14.jpeg; sourceTree = "<group>"; };
+		3F9A2A001CCF092B00FB6244 /* image15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image15.jpg; sourceTree = "<group>"; };
+		3F9A2A021CCF0B0700FB6244 /* image17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image17.jpg; sourceTree = "<group>"; };
+		3F9A2A0A1CCF0CA700FB6244 /* image16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image16.jpg; sourceTree = "<group>"; };
+		3F9A2A0C1CCF0E3600FB6244 /* staff_button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = staff_button.jpg; sourceTree = "<group>"; };
+		3F9A2A0E1CCF0E3A00FB6244 /* studentButton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = studentButton.jpg; sourceTree = "<group>"; };
+		3F9A2A1A1CCF140500FB6244 /* image20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image20.jpg; sourceTree = "<group>"; };
+		3F9A2A1C1CCF293A00FB6244 /* image25.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = image25.gif; sourceTree = "<group>"; };
+		3FF5BF881CC6A7850012AC7E /* PresentStudentsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentStudentsTableViewController.swift; sourceTree = "<group>"; };
+		5C9EE8131CB6BCA9003F9850 /* Faculty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Faculty.swift; sourceTree = "<group>"; };
+		9BF806EF1C9E0EF300761F8B /* Student_Professor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Student_Professor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF806F21C9E0EF400761F8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BF806F41C9E0EF400761F8B /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		9BF806F91C9E0EF400761F8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BF806FC1C9E0EF400761F8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BF806FE1C9E0EF400761F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BF807041C9E0FE100761F8B /* Faculty-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Faculty-Button.png"; sourceTree = "<group>"; };
+		9BF807061C9E0FF400761F8B /* Student-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Student-Button.png"; sourceTree = "<group>"; };
+		9BF807081C9E203C00761F8B /* loginButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginButton.png; sourceTree = "<group>"; };
+		9BF807091C9E203C00761F8B /* signup-button.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "signup-button.gif"; sourceTree = "<group>"; };
+		9BF8070C1C9E24E400761F8B /* FacultyLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacultyLoginViewController.swift; sourceTree = "<group>"; };
+		9BF8070E1C9E250400761F8B /* FacultyRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacultyRegisterViewController.swift; sourceTree = "<group>"; };
+		9BF807111C9E39EC00761F8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC1CB4301CC1C865003AF815 /* AttendanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AttendanceViewController.swift; path = ../AttendanceViewController.swift; sourceTree = "<group>"; };
+		AC3088D11CC2A2BE00E15860 /* stuAttendance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stuAttendance.swift; sourceTree = "<group>"; };
+		AC3088D31CC2AF0400E15860 /* facAttendance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = facAttendance.swift; sourceTree = "<group>"; };
+		AC3156281CB5C92F0094219B /* Students.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Students.swift; sourceTree = "<group>"; };
+		ACF602491CC05FFD003223D5 /* faculty.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = faculty.json; sourceTree = "<group>"; };
+		ACF6024B1CC06DAD003223D5 /* LoggedUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggedUser.swift; sourceTree = "<group>"; };
+		FE230E431CC4929D00156135 /* PresentStudents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentStudents.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BF806EC1C9E0EF300761F8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6CBB841CB3570B0078887F /* WebKit.framework in Frameworks */,
+				3F6CBB811CB357020078887F /* SystemConfiguration.framework in Frameworks */,
+				3F6CBB7F1CB356F90078887F /* Social.framework in Frameworks */,
+				3F6CBB7D1CB356F30078887F /* Security.framework in Frameworks */,
+				3F6CBB7B1CB356E80078887F /* CoreLocation.framework in Frameworks */,
+				3F6CBB781CB356E00078887F /* libsqlite3.0.tbd in Frameworks */,
+				3F6CBB791CB356E00078887F /* libsqlite3.tbd in Frameworks */,
+				3F6CBB751CB356D60078887F /* CoreGraphics.framework in Frameworks */,
+				3F6CBB731CB356C90078887F /* MobileCoreServices.framework in Frameworks */,
+				3F6CBB711CB356BF0078887F /* Accounts.framework in Frameworks */,
+				3F6CBB6E1CB356680078887F /* KinveyKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BF806E61C9E0EF300761F8B = {
+			isa = PBXGroup;
+			children = (
+				3F6CBB821CB3570B0078887F /* WebKit.framework */,
+				3F6CBB801CB357010078887F /* SystemConfiguration.framework */,
+				3F6CBB7E1CB356F90078887F /* Social.framework */,
+				3F6CBB7C1CB356F30078887F /* Security.framework */,
+				3F6CBB7A1CB356E80078887F /* CoreLocation.framework */,
+				3F6CBB761CB356E00078887F /* libsqlite3.0.tbd */,
+				3F6CBB771CB356E00078887F /* libsqlite3.tbd */,
+				3F6CBB741CB356D60078887F /* CoreGraphics.framework */,
+				3F6CBB721CB356C90078887F /* MobileCoreServices.framework */,
+				3F6CBB701CB356BF0078887F /* Accounts.framework */,
+				9BF806F11C9E0EF300761F8B /* Student_Professor */,
+				9BF806F01C9E0EF300761F8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BF806F01C9E0EF300761F8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BF806EF1C9E0EF300761F8B /* Student_Professor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BF806F11C9E0EF300761F8B /* Student_Professor */ = {
+			isa = PBXGroup;
+			children = (
+				9BF806F21C9E0EF400761F8B /* AppDelegate.swift */,
+				9BF806F41C9E0EF400761F8B /* WelcomeViewController.swift */,
+				9BF807101C9E39EC00761F8B /* Main.storyboard */,
+				AC1CB4301CC1C865003AF815 /* AttendanceViewController.swift */,
+				FE230E431CC4929D00156135 /* PresentStudents.swift */,
+				9BF8070C1C9E24E400761F8B /* FacultyLoginViewController.swift */,
+				9BF8070E1C9E250400761F8B /* FacultyRegisterViewController.swift */,
+				3F225B001CB1F3A10060F65E /* StudentLoginViewController.swift */,
+				3F9A2A0A1CCF0CA700FB6244 /* image16.jpg */,
+				3F9A2A001CCF092B00FB6244 /* image15.jpg */,
+				3F9A29FE1CCF089000FB6244 /* image14.jpeg */,
+				3F9A2A1A1CCF140500FB6244 /* image20.jpg */,
+				3F9A2A1C1CCF293A00FB6244 /* image25.gif */,
+				3F9A2A021CCF0B0700FB6244 /* image17.jpg */,
+				3F9A29FA1CCEFBA100FB6244 /* image12.jpg */,
+				3F9A29FC1CCF00FA00FB6244 /* image13.jpg */,
+				3F9A2A0E1CCF0E3A00FB6244 /* studentButton.jpg */,
+				3F5161571CBF39AC00D9C379 /* Sections.swift */,
+				3F9A2A0C1CCF0E3600FB6244 /* staff_button.jpg */,
+				3F225B021CB1F3B70060F65E /* StudentRegisterViewController.swift */,
+				5C9EE8131CB6BCA9003F9850 /* Faculty.swift */,
+				ACF602491CC05FFD003223D5 /* faculty.json */,
+				AC3156281CB5C92F0094219B /* Students.swift */,
+				3FF5BF881CC6A7850012AC7E /* PresentStudentsTableViewController.swift */,
+				3F225B041CB1F6370060F65E /* FacultyAttendanceViewController.swift */,
+				AC3088D31CC2AF0400E15860 /* facAttendance.swift */,
+				3F225B0E1CB1FE2D0060F65E /* FacultyFeedbackTableViewController.swift */,
+				3F225B081CB1F66B0060F65E /* StudentAttendanceViewController.swift */,
+				AC3088D11CC2A2BE00E15860 /* stuAttendance.swift */,
+				3F225B0A1CB1F68F0060F65E /* StudentExamReviewViewController.swift */,
+				9BF806F91C9E0EF400761F8B /* Assets.xcassets */,
+				9BF806FB1C9E0EF400761F8B /* LaunchScreen.storyboard */,
+				9BF807081C9E203C00761F8B /* loginButton.png */,
+				9BF807091C9E203C00761F8B /* signup-button.gif */,
+				3F225B0C1CB1F9F00060F65E /* submit-button-red.gif */,
+				9BF806FE1C9E0EF400761F8B /* Info.plist */,
+				9BF807041C9E0FE100761F8B /* Faculty-Button.png */,
+				9BF807061C9E0FF400761F8B /* Student-Button.png */,
+				3F6CBB6D1CB356680078887F /* KinveyKit.framework */,
+				3F6CBB6F1CB3567A0078887F /* Bridging-Header.h */,
+				ACF6024B1CC06DAD003223D5 /* LoggedUser.swift */,
+			);
+			path = Student_Professor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BF806EE1C9E0EF300761F8B /* Student_Professor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BF807011C9E0EF400761F8B /* Build configuration list for PBXNativeTarget "Student_Professor" */;
+			buildPhases = (
+				9BF806EB1C9E0EF300761F8B /* Sources */,
+				9BF806EC1C9E0EF300761F8B /* Frameworks */,
+				9BF806ED1C9E0EF300761F8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Student_Professor;
+			productName = Student_Professor;
+			productReference = 9BF806EF1C9E0EF300761F8B /* Student_Professor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BF806E71C9E0EF300761F8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Prashanth Reddy Malgireddy";
+				TargetAttributes = {
+					9BF806EE1C9E0EF300761F8B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 9BF806EA1C9E0EF300761F8B /* Build configuration list for PBXProject "Student_Professor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BF806E61C9E0EF300761F8B;
+			productRefGroup = 9BF806F01C9E0EF300761F8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BF806EE1C9E0EF300761F8B /* Student_Professor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BF806ED1C9E0EF300761F8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9A29FF1CCF089000FB6244 /* image14.jpeg in Resources */,
+				3F9A2A0B1CCF0CA700FB6244 /* image16.jpg in Resources */,
+				3F9A2A011CCF092B00FB6244 /* image15.jpg in Resources */,
+				9BF807121C9E39EC00761F8B /* Main.storyboard in Resources */,
+				9BF807071C9E0FF400761F8B /* Student-Button.png in Resources */,
+				3F9A29FD1CCF00FA00FB6244 /* image13.jpg in Resources */,
+				9BF806FD1C9E0EF400761F8B /* LaunchScreen.storyboard in Resources */,
+				9BF8070B1C9E203C00761F8B /* signup-button.gif in Resources */,
+				9BF806FA1C9E0EF400761F8B /* Assets.xcassets in Resources */,
+				3F9A2A1B1CCF140500FB6244 /* image20.jpg in Resources */,
+				9BF807051C9E0FE100761F8B /* Faculty-Button.png in Resources */,
+				3F9A2A031CCF0B0700FB6244 /* image17.jpg in Resources */,
+				ACF6024A1CC05FFD003223D5 /* faculty.json in Resources */,
+				3F225B0D1CB1F9F00060F65E /* submit-button-red.gif in Resources */,
+				3F9A29FB1CCEFBA100FB6244 /* image12.jpg in Resources */,
+				3F9A2A0F1CCF0E3A00FB6244 /* studentButton.jpg in Resources */,
+				3F9A2A1D1CCF293A00FB6244 /* image25.gif in Resources */,
+				9BF8070A1C9E203C00761F8B /* loginButton.png in Resources */,
+				3F9A2A0D1CCF0E3600FB6244 /* staff_button.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BF806EB1C9E0EF300761F8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF8070D1C9E24E400761F8B /* FacultyLoginViewController.swift in Sources */,
+				AC3088D21CC2A2BE00E15860 /* stuAttendance.swift in Sources */,
+				3F5161581CBF39AC00D9C379 /* Sections.swift in Sources */,
+				3F225B0F1CB1FE2D0060F65E /* FacultyFeedbackTableViewController.swift in Sources */,
+				9BF806F51C9E0EF400761F8B /* WelcomeViewController.swift in Sources */,
+				FE230E441CC4929D00156135 /* PresentStudents.swift in Sources */,
+				3F225B091CB1F66B0060F65E /* StudentAttendanceViewController.swift in Sources */,
+				9BF806F31C9E0EF400761F8B /* AppDelegate.swift in Sources */,
+				3F225B031CB1F3B70060F65E /* StudentRegisterViewController.swift in Sources */,
+				3F225B051CB1F6370060F65E /* FacultyAttendanceViewController.swift in Sources */,
+				ACF6024C1CC06DAD003223D5 /* LoggedUser.swift in Sources */,
+				3FF5BF891CC6A7850012AC7E /* PresentStudentsTableViewController.swift in Sources */,
+				9BF8070F1C9E250400761F8B /* FacultyRegisterViewController.swift in Sources */,
+				5C9EE8141CB6BCA9003F9850 /* Faculty.swift in Sources */,
+				AC1CB4311CC1C865003AF815 /* AttendanceViewController.swift in Sources */,
+				AC3156291CB5C92F0094219B /* Students.swift in Sources */,
+				AC3088D41CC2AF0400E15860 /* facAttendance.swift in Sources */,
+				3F225B011CB1F3A10060F65E /* StudentLoginViewController.swift in Sources */,
+				3F225B0B1CB1F68F0060F65E /* StudentExamReviewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9BF806FB1C9E0EF400761F8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BF806FC1C9E0EF400761F8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9BF807101C9E39EC00761F8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BF807111C9E39EC00761F8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BF806FF1C9E0EF400761F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BF807001C9E0EF400761F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BF807021C9E0EF400761F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Student_Professor",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				INFOPLIST_FILE = Student_Professor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "project.Student-Professor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Student_Professor/Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		9BF807031C9E0EF400761F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Student_Professor",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				INFOPLIST_FILE = Student_Professor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "project.Student-Professor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Student_Professor/Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BF806EA1C9E0EF300761F8B /* Build configuration list for PBXProject "Student_Professor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF806FF1C9E0EF400761F8B /* Debug */,
+				9BF807001C9E0EF400761F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BF807011C9E0EF400761F8B /* Build configuration list for PBXNativeTarget "Student_Professor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF807021C9E0EF400761F8B /* Debug */,
+				9BF807031C9E0EF400761F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BF806E71C9E0EF300761F8B /* Project object */;
+}
